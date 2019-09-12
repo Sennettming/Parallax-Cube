@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_Parallex Cubemap
+  m_Shader: {fileID: 4800000, guid: 26518070602afc14793696a578058729, type: 3}
+  m_ShaderKeywords: _SELECTAXIS_YAXIS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mainCube:
+        m_Texture: {fileID: 8900000, guid: d8bc506f3e1ed504e92d50224816649d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _halfRadius: 5
+    - _isWorldSpace: 0
+    - _isX: 0
+    - _isXAxis: 0
+    - _isY: 0
+    - _isYAxis: 0
+    - _isZ: 0
+    - _isZAxis: 0
+    - _radiusVector: 5
+    - _selectAxis: 1
+    - _xCubeScale: 1
+    - _yCubeScale: 1
+    - _zCubeScale: 1
+    m_Colors:
+    - _CubeOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _centerPosition: {r: 0, g: -5, b: 0, a: 1}
+    - _radiusNormal: {r: 1, g: 0, b: 0, a: 1}
+    - _radiusPoint: {r: -5, g: 0, b: 0, a: 1}
