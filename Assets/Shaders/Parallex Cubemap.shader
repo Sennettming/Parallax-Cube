@@ -199,7 +199,11 @@
             // float3 finalUV = compileViewDir;
                 // finalUV = float3(finalUV.x, finalUV.z, -finalUV.y);
                 
-                half3 reflection = texCUBE(_mainCube, finalUV);
+                //with mipmap
+                // half3 reflection = texCUBE(_mainCube, finalUV);
+
+                //without mipmap
+                half3 reflection = texCUBElod(_mainCube, float4(finalUV, 0));
 
                 return half4 (reflection, 1.0);
             }
